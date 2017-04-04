@@ -86,6 +86,9 @@ def nextTurn(player, scrabbleBoard):
     return wordLetter
 
 def makePlayers():
+    '''
+    This method creates 2-4 players for the Scrabble Game
+    '''
     playerList = []
     numPlayers = int(input("The game of Scrabble has started, how many players are their?**2-4**. Type 2, 3, or 4, then press enter.\n"))
     while numPlayers < 2 or numPlayers > 4:
